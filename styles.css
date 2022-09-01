@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images6.alphacoders.com/115/1155869.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(157, 167, 157);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    color: white;
+    background-color: rgb(48, 87, 214);
+    padding: 10px 0;
+}
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    margin-top: 0px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: solid;
+}
+.topnav a:hover{
+    background-color: tomato;
+    color: white;
+}
+.main{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background-attachment: fixed;
+    background: linear-gradient(to left,white,grey);
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,10);
+}
+.main h1{
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+    border-bottom: 3px solid rgb(184, 53, 53);
+    background-color: rgb(48, 87, 214);
+    border-radius: 15px;
+    font-size: 30px;
+}
+.main form{
+    padding: 0 40px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+.sub{
+    position: relative;
+    border-bottom: 3px solid green;
+    margin: 35px 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+.sub input{
+    font-size: 17px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.sub:hover{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.50);
+}
+.pass{
+    cursor: pointer;
+    color: blue;
+    margin: -5px 0 20px 5px;
+}
+.pass:hover{
+    color: crimson;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100%;
+    border: 3px solid;
+    background: rgb(218, 52, 10);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background-color: rgb(97, 41, 226);
+    border-color: black;
+    transition: .5s;
+    box-shadow: 10px 10px 10px rgba(0,0,0,5);
+    transition: .5s;
+    color: black;
+}
+.signup_link{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+.signup_link a{
+    color: blue;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    color: crimson;
+}
+.follow{
+    text-align: center;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.follow a{
+    color:black
+}
